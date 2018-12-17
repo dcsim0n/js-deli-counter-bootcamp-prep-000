@@ -1,6 +1,9 @@
-function takeANumber(deli,newName){
- var position = deli.push(newName);
- return `Welcome, ${newName}. You are number ${position} in line.`;
+var lastNumber = 0;
+function takeANumber(){
+ //var position = deli.push(newName);
+  lastNumber++;
+ return `Welcome. You are number ${lastNumber} in line.`;
+ 
 }
 
 function nowServing(deli){
